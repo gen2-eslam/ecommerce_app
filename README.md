@@ -1,50 +1,61 @@
-# Welcome to your Expo app 👋
+# Ecommerce App 🛒
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern Ecommerce mobile application built with React Native and Expo. This project demonstrates a clean architecture for an online shopping experience with features like user authentication and product browsing.
 
-## Get started
+## 🚀 Features
 
-1. Install dependencies
+- **User Authentication**: Secure Login screen with email and password validation.
+- **Home Screen**: A landing page for authenticated users to start their shopping journey.
+- **Dynamic Routing**: Built using Expo Router for seamless navigation.
+- **Type Safety**: Fully implemented in TypeScript for robust development.
+- **Responsive Design**: Styled with flexible layouts for various devices.
 
-   ```bash
-   npm install
-   ```
+## 🛠 Tech Stack
 
-2. Start the app
+- **Framework**: [Expo](https://expo.dev/) (React Native)
+- **Navigation**: [Expo Router](https://docs.expo.dev/router/introduction/) (File-based)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Icons**: [@expo/vector-icons](https://icons.expo.fyi/)
+- **Animations**: [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/)
 
-   ```bash
-   npx expo start
-   ```
+## 📂 Project Structure
 
-In the output, you'll find options to open the app in a
+- `app/`: Contains the main application routes and screens.
+  - `auth/`: Authentication related screens (e.g., `login_screen.tsx`).
+  - `home/`: Main application content screens (e.g., `home_screen.tsx`).
+  - `utils/`: Common styling and helper functions.
+- `assets/`: Images, fonts, and other static resources.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🏁 Getting Started
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 1. Prerequisites
 
-## Get a fresh project
+Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 
-When you're ready, run:
+### 2. Install Dependencies
 
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 3. Start the App
 
-## Learn more
+```bash
+npx expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+Use the Expo Go app on your phone or an emulator to preview the application:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- Press `a` for Android.
+- Press `i` for iOS.
+- Press `w` for Web.
 
-## Join the community
+## 📜 Scripts
 
-Join our community of developers creating universal apps.
+- `npm run start`: Starts the Expo development server.
+- `npm run lint`: Runs ESLint to check for code quality issues.
+- `npm run reset-project`: Resets the project to a blank state (use with caution).
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+Developed with ❤️ using Expo.
